@@ -1,0 +1,83 @@
+﻿body {
+    background-color: #282C35;
+}
+
+.blogcenter {
+    height: 550px;
+    width: auto;
+}
+
+.blogwrite {
+    height: 550px;
+    width: auto;
+    border-bottom: solid 2px black;
+    border-bottom-style: dashed;
+}
+
+.blogyazi {
+    margin-left: 35%;
+    color: white;
+}
+
+.blogbaslik {
+    text-align: center;
+    color: white;
+}
+
+header {
+    padding: 0px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: transparent;
+    transition: all linear .50s;
+    z-index: 0;
+}
+
+.header {
+    background: transparent;
+}
+
+    .header .logo img {
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+header .logo img {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all linear .50s;
+    display: block;
+}
+
+header.fixed-header .logo img {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.box-height {
+    height: 500px;
+}
+
+.link {
+    text-align: center;
+    display: block;
+    position: sticky;
+    padding: 0px;
+    bottom: 0px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.Dontclick {
+    color: #282C35;
+}
